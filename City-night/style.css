@@ -27,6 +27,9 @@ body{
  }
  #pic{
      width: 800px;
+     position: absolute;
+     overflow: hidden;
+     transform: scale(-50%,-50%);
  }
  .infos{
      width: 800px;
@@ -154,25 +157,4 @@ body{
          width: 100%;
      }
   }
-  #contenair h1{
-      animation-name: move;
-      animation-duration: 2s;
-      animation-iteration-count: infinite;
-     }
-     @keyframes move{
-        0% {
-            transform: translateY(0px);
-        }
-        25%{
-            transform: translateY(50px);
-        }
-        50%{
-            transform: translateY(100px);
-        }
-        75%{
-            transform: translateY(50px);
-        }
-        100%{
-            transform: translateY(0px);
-        }
-     }
+  
